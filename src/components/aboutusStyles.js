@@ -4,7 +4,6 @@ import { theme } from "../styles/theme";
 export const AboutContainer = styled.section`
   padding: 4rem 2rem;
   background-color: ${theme.colors.background};
-
   text-align: center;
 `;
 
@@ -59,5 +58,6 @@ export const ListStyled = styled.ul`
 
   @media (max-width: 768px) {
     font-size: 1rem;
+    padding: 0;
   }
 `;

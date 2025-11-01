@@ -10,7 +10,7 @@ export const HeroContainer = styled.section`
   justify-content: center;
   align-items: center;
   //background-color: ${theme.colors.background};
-  background-image: url("../../public/assets/background.png");
+  background-image: url("/assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
