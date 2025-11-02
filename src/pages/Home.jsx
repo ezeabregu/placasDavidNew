@@ -19,6 +19,12 @@ const Home = () => {
     "/assets/08.jpeg",
     "/assets/09.jpeg",
     "/assets/10.jpeg",
+    "/assets/11.jpg",
+    "/assets/12.jpg",
+    "/assets/13.jpg",
+    "/assets/14.jpg",
+    "/assets/15.jpg",
+    "/assets/16.jpg",
   ];
   return (
     <>

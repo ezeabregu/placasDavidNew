@@ -11,7 +11,7 @@ const ImageGrid = ({ images }) => {
       <AboutTitle>Algunos de nuestros trabajos</AboutTitle>
       <GridContainer>
         {images.map((img, id) => (
-          <ImageItem key={id} src={img} alt={`img-${id}`} />
+          <ImageItem key={id} src={img} alt={`img-${id}`} loading="lazy" />
         ))}
       </GridContainer>
     </ImageGridContainer>

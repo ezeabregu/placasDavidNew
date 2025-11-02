@@ -6,10 +6,12 @@ export const ImageGridContainer = styled.section`
   background-color: ${theme.colors.background};
   color: ${theme.colors.text};
   text-align: center;
+  overflow: visible;
+  height: auto;
 `;
 
 export const GridContainer = styled.section`
-  column-count: 4;
+  column-count: 5;
   column-gap: 1rem;
   padding: 2rem;
 
@@ -31,6 +33,7 @@ export const ImageItem = styled.img`
   margin-bottom: 1rem;
   border-radius: 12px;
   display: block;
+  break-inside: avoid;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
